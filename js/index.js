@@ -88,6 +88,10 @@ $.ajax({
 
             $('#sPayouts').html(payoutHTML);
         }
+
+        else{
+            $('#sHash').html('No data (0.00KH/s)');
+        }
     }
     });
 }
@@ -142,12 +146,16 @@ $.ajax({
 }
 
 function updateWallet(){
+    $('#dogeBTC').html("Loading...");
+    $('#dogeUSD').html("");
+    $('#dogeAm').html("");
+    $('#usdAm').html("");
+
     if(pandaAddress.charAt(0) == "P"){
         $('#dogeBTC').html("Error: Panda address");
     }
 
     else{
-        $('#dogeBTC').html("Loading...");
         
         var url4 = 'http://pubapi.cryptsy.com/api.php?method=singlemarketdata&marketid=132';
         url4 = encodeURIComponent(url4);
