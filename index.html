@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PandaTracker</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="jquery.mobile-1.2.0.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+	</script>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+	<div data-role="stuff" data-theme="d" id="stuff">
+
+		<div id="headerText"><span style="font-weight:900;">Panda</span><span style="font-weight:300;">Tracker</span></div>
+
+		<div id="content">
+
+			<div style="margin-top: 20px;text-align:center;">
+				Pandapool address: 
+			</div>
+
+			<div style="text-align:center;"><input type="text" name="pandaAd" id="pandaForm"></input></div>
+
+			<div><span class="topButton" id="sButton">Scrypt</span><span class="topButton" id="xButton">x11</span><span class="topButton" id="wButton">Wallet</span></div>
+
+			<div id="infoContent">
+				<div class="info" id="sInfo">
+					<div>Scrypt Hashrate: <span id="sHash"></span></div>
+					<div class="room">Doge/MHs/Day: <span id="sDPD"></span></div>
+					<div>Panda/MHs/Day: <span id="sPPD"></span></div>
+					<div class="room">Payouts<span id="sPayouts"></span></div>
+				</div>
+				<div class="info" id="xInfo">
+					<div>X11 Hashrate: <span id="xHash"></span></div>
+					<div class="room">Doge/MHs/Day:<span id="xDPD"></span></div>
+					<div>Panda/MHs/Day:<span id="xPPD"></span></div>
+					<div class="room">Payouts:<span id="xPayouts"></span></div>
+				</div>
+				<div class="info" id="wInfo">
+					<div>DOGE/BTC Rate: <span id="dogeBTC"></span></div>
+					<div>1000 DOGE/USD Rate: <span id="dogeUSD"></span></div>
+					<div>DOGE Amount: <span id="dogeAm"></span></div>
+					<div>USD Equiv: <span id="usdAm"></span></div>
+				</div>
+
+			</div>			
+
+			<div id="updateButton">Update</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>

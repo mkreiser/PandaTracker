@@ -1,0 +1,190 @@
+* {margin: 0; padding: 0;}
+
+body { 
+	-webkit-user-select:none;
+	font-family: 'Lato', sans-serif; 
+	font-size: 40px; 
+	background-color: #EEEEEE;	
+	width: 100%; 
+	height: 100% !important;
+	color: #FFFFFF;
+}
+
+html {
+	height: 100%
+}
+
+.ui-mobile, .ui-mobile body {
+height: 100%;
+}
+
+
+a {
+	-webkit-user-select:none; -webkit-touch-callout:none;
+}
+
+.padBottom{
+	padding-bottom: 10px;
+}
+
+.room{
+	margin-top: 20px;
+}
+
+.topButton{
+	background-color: #00CBFF;
+	border: 10px solid #FFFFFF;
+	padding: 20px;
+	color: #FFFFFF;
+	position: relative;
+	top: 50px;
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+}
+
+#content{
+	width:840px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+}
+
+#headerText{
+	font-size: 100px;
+	padding-top: 10px;
+	background-color: #00CBFF;
+	color: #EEEEEE;
+	border-bottom: 10px solid #FFFFFF;
+	width: 100%;
+	text-align: center;
+}
+
+#infoContent{
+	position: relative;
+	top: 100px;
+}
+
+#pandaForm{
+	style="display:inline-block;
+	width: 400px; 
+	margin-top:10px; 
+	height: 30px; 
+	font-size: 25px;
+}
+
+#updateButton{
+	background-color: #00CBFF;
+	color: #FFFFFF;
+	padding: 25px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	position: fixed;
+	top:1000px;
+	width: 770px;
+}
+
+@media all and (max-width : 920px) and (min-width : 710px) {
+
+	.topButton{
+		width:170px;
+	}
+
+	#content{
+		width: 690px;
+		font-size: 28px;
+	}
+
+	#headerText{
+		font-size: 60px;
+	}
+
+	#infoContent{
+		top:80px;
+	}
+
+	#updateButton{
+		width:620px;
+		top:710px;
+	}
+
+}
+
+@media all and (max-width : 709px) and (min-width : 510px){
+
+	.topButton{
+		border: 5px solid #FFFFFF;
+		padding: 10px;
+		width:140px;
+		font-size: 20px;
+		top:20px;
+	}
+
+	#content{
+		width: 510px;
+		font-size: 20px;
+	}
+
+	#headerText{
+		font-size: 30px;
+	}
+
+	#infoContent{
+		top:40px;
+	}
+
+	#updateButton{
+		width:460px;
+		top:480px;
+		padding: 15px;
+		border: 5px solid #FFFFFF;
+		font-size: 20px;
+	}
+
+	#pandaForm{
+		height: 25px;
+		font-size: 20px;
+	}
+}
+
+@media all and (max-width : 509px) {
+
+	.topButton{
+		border: 5px solid #FFFFFF;
+		padding: 10px;
+		width:90px;
+		font-size: 16px;
+		top:20px;
+	}
+
+	#content{
+		width: 360px;
+		font-size: 18px;
+	}
+
+	#headerText{
+		font-size: 30px;
+	}
+
+	#infoContent{
+		top:40px;
+	}
+
+	#updateButton{
+		width:320px;
+		top:450px;
+		padding: 15px;
+		border: 5px solid #FFFFFF;
+		font-size: 20px;
+	}
+
+	#pandaForm{
+		width: 320px;
+		height: 25px;
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mikekreiser.pandatracker" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PandaTracker</name>
+    <description>
+        Track your miners on Pandapool along with your Dogecoin address.
+    </description>
+    <author email="mkreise2@illinois.edu" href="http://web.engr.illinois.edu/~mkreise2/">Mike Kreiser</author>
+    <!-- Android Plugin Packages -->
+    <feature name="Device"><param name="android-package" value="org.apache.cordova.device.Device" /></feature>
+    <feature name="NetworkStatus"><param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" /></feature>
+    <feature name="Notification"><param name="android-package" value="org.apache.cordova.dialogs.Notification" /></feature>
+    <feature name="Storage"><param name="android-package" value="org.apache.cordova.Storage" /></feature>
+    <!-- iOS Plugin Packages -->
+    <feature name="NetworkStatus"><param name="ios-package" value="CDVConnection" /></feature>
+    <feature name="Notification"><param name="ios-package" value="CDVNotification" /></feature>
+    <!-- General Preferences -->
+    <preference name="phonegap-version" value="3.3.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <!-- Target Platformss -->
+    <gap:platform name="android" />
+    <!-- Plugins -->
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <!-- Android Icons -->
+    <icon src="icon.png" />
+    <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/icon-72-hdpi.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="res/icon/android/icon-96-xhdpi.png" />
+    <icon gap:density="xxhdpi" gap:platform="android" src="res/icon/android/icon-144-xxhdpi.png" />
+    <!-- iOS Icons -->
+    <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="res/icon/ios/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="res/icon/ios/icon-72-2x.png" width="144" />
+    <!-- Android Splashscreens -->
+    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:density="xxhdpi" gap:platform="android" src="res/screen/android/screen-xxhdpi-portrait.png" />
+    <!-- iOS Splashscreens -->
+    <gap:splash gap:platform="ios" height="480" src="res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <!-- Misc -->
+    <access origin="*" />
+    <content src="index.html" />
+</widget>
