@@ -11,25 +11,25 @@ $('#sInfo').show();
 $('#xInfo').hide();
 $('#wInfo').hide();
 
-$('#sButton').click(function(){
+$('#sButton').on('touchend',function(){
     $('#sInfo').show();
     $('#xInfo').hide();
     $('#wInfo').hide();
 });
 
-$('#xButton').click(function(){
+$('#xButton').on('touchend',function(){
     $('#sInfo').hide();
     $('#xInfo').show();
     $('#wInfo').hide();
 });
 
-$('#wButton').click(function(){
+$('#wButton').on('touchend',function(){
     $('#sInfo').hide();
     $('#xInfo').hide();
     $('#wInfo').show();
 });
 
-$('#updateButton').click(function(){
+$('#updateButton').on('touchend',function(){
         pandaAddress = $('#pandaForm').val();
         window.localStorage.setItem("panda", pandaAddress);
         updateScrypt();
