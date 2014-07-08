@@ -38,6 +38,7 @@ $('#updateButton').on('touchend',function(){
 });
 
 var currentRound = 0;
+var currentRound2 = 0;
 var dogeBTCrate = 0;
 var btcUSDprice = 0;
 var dogeThousand = 0;
@@ -61,8 +62,12 @@ $.ajax({
     dataType: 'json',
     success: function(results){
 
-        if(results.result != "")
+        if(results.result.workers === undefined)
         {
+            $('#sHash').html('No data (0.00KH/s)');
+        }
+
+        else{
             var totalHash = 0;
             for(var i = 0; i < results.result.workers.length;i++)
             {
@@ -88,10 +93,6 @@ $.ajax({
 
             $('#sPayouts').html(payoutHTML);
         }
-
-        else{
-            $('#sHash').html('No data (0.00KH/s)');
-        }
     }
     });
 }
@@ -110,36 +111,36 @@ $.ajax({
     dataType: 'json',
     success: function(results){
 
-        if(results.result != "")
+        if(results.result.workers === undefined)
         {
-            var totalHash;
+            $('#xHash').html('No data (0.00KH/s)');
+        }
+
+        else{
+            var totalHash2 = 0;
             for(var i = 0; i < results.result.workers.length;i++)
             {
-                totalHash += parseInt(results.result.workers[i][2]);
+                totalHash2 += parseInt(results.result.workers[i][2]);
             }
-            $('#xHash').html(totalHash + " KH/s");
+            $('#xHash').html(totalHash2.toString() + " KH/s");
 
-            var currentRound2 = results.result.history[0].round;
+            currentRound2 = results.result.history[0].round;
             getDogePerDayX(currentRound2);
             var payoutHTMLX = "";
 
             if(pandaAddress.charAt(0) == "P"){
                 for(var i = 0; i < 6; i++){
-                    payoutHTMLX += "<div>Round " + results.results.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>";
+                    payoutHTMLX += "<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>";
                 }
             }
 
             else{
                 for(var i = 0; i < 6; i++){
-                    payoutHTMLX += "<div>Round " + results.results.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>";
+                    payoutHTMLX += "<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>";
                 }
             }
 
             $('#xPayouts').html(payoutHTMLX);
-        }
-
-        else{
-            $('#xHash').html('No data (0.00KH/s)');
         }
     }
     });
