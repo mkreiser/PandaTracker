@@ -21,7 +21,12 @@
 <body>
 	<div data-role="stuff" data-theme="d" id="stuff">
 
-		<div id="headerText"><span style="font-weight:900;">Panda</span><span style="font-weight:300;">Tracker</span></div>
+		<div id="headerText">
+		<!--<span style="font-weight:900;">Panda</span><span style="font-weight:300;">Tracker</span>-->
+			<div style="background-color: rgb(34, 45, 58);">
+				<div style="text-shadow: rgb(0, 164, 207) 1px 1px, rgb(0, 164, 207) 2px 2px, rgb(0, 164, 207) 3px 3px, rgb(0, 164, 207) 4px 4px, rgb(0, 164, 207) 5px 5px, rgb(0, 164, 207) 6px 6px, rgb(0, 164, 207) 7px 7px, rgb(0, 164, 207) 8px 8px, rgb(0, 164, 207) 9px 9px, rgb(0, 164, 207) 10px 10px, rgb(0, 166, 209) 11px 11px, rgb(0, 168, 212) 12px 12px, rgb(0, 170, 215) 13px 13px, rgb(0, 173, 218) 14px 14px, rgb(0, 175, 221) 15px 15px, rgb(0, 177, 223) 16px 16px, rgb(0, 180, 226) 17px 17px, rgb(0, 182, 229) 18px 18px, rgb(0, 184, 232) 19px 19px, rgb(0, 186, 235) 20px 20px, rgb(0, 189, 238) 21px 21px, rgb(0, 191, 240) 22px 22px, rgb(0, 193, 243) 23px 23px, rgb(0, 196, 246) 24px 24px, rgb(0, 198, 249) 25px 25px, rgb(0, 200, 252) 26px 26px, rgb(0, 203, 255) 27px 27px; background-color: rgb(0, 203, 255);"><span id="header">PandaTracker</span></div>
+			</div>
+	</div>
 
 		<div id="content">
 
@@ -47,9 +52,9 @@
 					<div class="room">Payouts:<span id="xPayouts"></span></div>
 				</div>
 				<div class="info" id="wInfo">
-					<div>DOGE/BTC Rate: <span id="dogeBTC"></span></div>
-					<div>1000 DOGE/USD Rate: <span id="dogeUSD"></span></div>
-					<div>DOGE Amount: <span id="dogeAm"></span></div>
+					<div id="exchange">DOGE/BTC Rate: <span id="dogeBTC"></span></div>
+					<div id="thous">1000 DOGE/USD Rate: <span id="dogeUSD"></span></div>
+					<div id="amount">DOGE Amount:</div>
 					<div>USD Equiv: <span id="usdAm"></span></div>
 				</div>
 

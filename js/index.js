@@ -147,13 +147,13 @@ $.ajax({
 }
 
 function updateWallet(){
-    $('#dogeBTC').html("Loading...");
-    $('#dogeUSD').html("");
-    $('#dogeAm').html("");
+    $('#exchange').html('Loading...');
     $('#usdAm').html("");
 
-    if(pandaAddress.charAt(0) == "P"){
-        $('#dogeBTC').html("Error: Panda address");
+    console.log(pandaAddress.charAt(0));
+
+    if(pandaAddress.charAt(0) === 'P'){
+        getPandaAd();
     }
 
     else{
@@ -178,29 +178,76 @@ function updateWallet(){
                 btcUSDprice = data.btc_to_usd;
                 btcUSDprice = roundToTwo(btcUSDprice);
                 dogeThousand = dogeBTCrate * btcUSDprice;
-                $('#dogeBTC').html(Math.ceil(dogeBTCrate*100000000) +" Satoshi");
-                $('#dogeUSD').html("$" + roundToThree(dogeBTCrate * 1000 * btcUSDprice));
+                $('#exchange').html('DOGE/BTC Rate: ' + Math.ceil(dogeBTCrate*100000000) + " Satoshi")
+                $('#thous').html('1000 DOGE/USD Rate: ' + "$" + roundToThree(dogeBTCrate * 1000 * btcUSDprice));
                 getDogeAd(dogeBTCrate,btcUSDprice);
-                
             }   
             });
         }   
         });
-
     }
 }
 
 function getDogeAd(dogeBTCrate,btcUSDprice){
     $.ajax({
-    url: 'https://chain.so/api/v2/get_address_balance/DOGE/' + pandaAddress,
+        url: 'https://chain.so/api/v2/get_address_balance/DOGE/' + pandaAddress,
+        dataType: 'jsonp',
+        success: function(results){
+            addressBalance = results.data.confirmed_balance;
+            $('#amount').html("DOGE Amount: " + roundToTwo(addressBalance) + " Doge");
+            $('#usdAm').html("$" + roundToTwo(dogeBTCrate * btcUSDprice * addressBalance));
+        }
+    });
+}
+
+function getPandaAd(){
+    url5 = 'http://pandachain.net/chain/PandaCoin/q/addressbalance/' + pandaAddress;   
+    url5 = encodeURIComponent(url5);
+    url5 = 'http://jsonp.guffa.com/Proxy.ashx?url=' + url5;
+
+    $.ajax({
+        url: url5,
+        dataType: 'jsonp',
+        success: function(results){
+            $('#thous').html('');
+            $('#amount').html('Panda Amount: ' + roundToTwo(results));
+            getPandaAm(parseInt(results));
+        }
+    });
+}
+
+function getPandaAm(amount){
+    
+    var url7 = 'btc-e.com/api/2/ltc_usd/trades';
+    url7 = encodeURIComponent(url7);
+    url7 = 'http://jsonp.guffa.com/Proxy.ashx?url=' + url7;
+
+    //Litecoin-USD Price
+    $.ajax({
+    url: url7,
     dataType: 'jsonp',
     success: function(results){
-        addressBalance = results.data.confirmed_balance;
-        $('#dogeAm').html(roundToTwo(addressBalance) + " Doge");
-        $('#usdAm').html("$" + roundToTwo(dogeBTCrate * btcUSDprice * addressBalance));
+        ltcUSDprice = results[0].price;
+        getPandaConvert(amount,ltcUSDprice);
     }
     });
+}
 
+function getPandaConvert(amount,ltcUSD){
+    url6 = 'http://api.mintpal.com/v1/market/stats/PND/LTC'; 
+    url6 = encodeURIComponent(url6);
+    url6 = 'http://jsonp.guffa.com/Proxy.ashx?url=' + url6;
+
+    $.ajax({
+        url: url6,
+        dataType: 'jsonp',
+        success: function(results){
+            var usdEq = amount * ltcUSD * results[0].last_price;
+            $('#usdAm').html("$" + roundToTwo(usdEq));
+            $('#exchange').html("PND/LTC: " + results[0].last_price);
+        }
+    });
+    
 }
 
 function getDogePerDay(cRound){

@@ -52,6 +52,13 @@ a {
 	
 }
 
+#header{
+	font-size:100px; 
+	padding-bottom:10px;
+	line-height: 150px;
+	display:inline-block;
+}
+
 #headerText{
 	font-size: 100px;
 	padding-top: 10px;
@@ -86,7 +93,7 @@ a {
 	border-style: solid;
 	border-color: #FFFFFF;
 	position: fixed;
-	top:1000px;
+	top:1050px;
 	width: 770px;
 }
 
@@ -101,8 +108,14 @@ a {
 		font-size: 28px;
 	}
 
+	#header{
+		font-size: 60px;
+		line-height: 100px;
+	}
+
 	#headerText{
 		font-size: 60px;
+		line-height: 70px;
 	}
 
 	#infoContent{
@@ -111,7 +124,7 @@ a {
 
 	#updateButton{
 		width:620px;
-		top:710px;
+		top:760px;
 	}
 
 }
@@ -131,8 +144,13 @@ a {
 		font-size: 20px;
 	}
 
+	#header{
+		font-size: 60px;
+		line-height: 100px;
+	}
+
 	#headerText{
-		font-size: 30px;
+		font-size: 60px;
 	}
 
 	#infoContent{
@@ -141,7 +159,7 @@ a {
 
 	#updateButton{
 		width:460px;
-		top:480px;
+		top:550px;
 		padding: 15px;
 		border: 5px solid #FFFFFF;
 		font-size: 20px;
@@ -168,8 +186,14 @@ a {
 		font-size: 18px;
 	}
 
+	#header{
+		font-size: 30px;
+		line-height: 60px;
+	}
+
 	#headerText{
 		font-size: 30px;
+		line-height: 60px;
 	}
 
 	#infoContent{
@@ -178,7 +202,7 @@ a {
 
 	#updateButton{
 		width:320px;
-		top:450px;
+		top:480px;
 		padding: 15px;
 		border: 5px solid #FFFFFF;
 		font-size: 20px;
