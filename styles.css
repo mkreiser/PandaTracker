@@ -164,3 +164,260 @@ input[type="text"]{
 	position: absolute;
 	top: 0; left: 0; bottom: 100px; right: 0;
 }
+
+@media all and (max-width: 850px) and (min-width: 670px){
+	.item{
+		font-size: 45px;
+		height: 120px;
+		line-height: 120px;
+	}
+
+	.pay{
+		font-size: 40px;
+		height: 80px;
+		line-height: 80px;
+	}
+
+	input[type="text"]{
+		font-size: 28px;
+		height: 120px;
+		line-height: 120px;
+	}
+
+	.tab-item{
+		line-height: 100px;
+		font-size: 40px;
+		color:#FFFFFF;
+	}
+
+	#pBU{
+		line-height: 80px;
+	}
+
+	#cardHead2{
+		font-size: 35px;
+		height: 100px;
+		line-height: 100px;
+	}
+
+	#cardHead3{
+		font-size: 35px;
+		height: 100px;
+		line-height: 100px;
+	}
+
+	#cardHead4{
+		font-size: 30px;
+		height: 80px;
+		line-height: 80px;
+	}
+
+	#sInfo{
+		height: 456px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#xInfo{
+		height: 456px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#pSInfo{
+		height: 632px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#pXInfo{
+		height: 632px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#wInfo{
+		height: 694px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+}
+
+@media all and (max-width: 670px) and (min-width: 480px){
+	.item{
+		font-size: 26px;
+		height: 70px;
+		line-height: 70px;
+	}
+
+	.pay{
+		font-size: 24px;
+		height: 60px;
+		line-height: 60px;
+	}
+
+	input[type="text"]{
+		font-size: 18px;
+		height: 70px;
+		line-height: 70px;
+	}
+
+	.tab-item{
+		line-height: 75px;
+		font-size: 28px;
+		color:#FFFFFF;
+	}
+
+	#tabs{
+		height: 75px;
+	}
+
+	#pBU{
+		line-height: 50px;
+	}
+
+	#cardHead2{
+		font-size: 24px;
+		height: 60px;
+		line-height: 60px;
+	}
+
+	#cardHead3{
+		font-size: 24px;
+		height: 60px;
+		line-height: 60px;
+	}
+
+	#cardHead4{
+		font-size: 24px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#sInfo{
+		height: 266px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#xInfo{
+		height: 266px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#pSInfo{
+		height: 452px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#pXInfo{
+		height: 452px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#wInfo{
+		height: 404px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+}
+
+@media all and (max-width: 480px) and (min-width: 10px){
+	.item{
+		font-size: 18px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.pay{
+		font-size: 16px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	input[type="text"]{
+		font-size: 12px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.tab-item{
+		line-height: 50px;
+		font-size: 18px;
+		color:#FFFFFF;
+	}
+
+	#tabs{
+		height: 50px;
+	}
+
+	#pBU{
+		line-height: 40px;
+	}
+
+	#cardHead2{
+		font-size: 18px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#cardHead3{
+		font-size: 18px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#cardHead4{
+		font-size: 18px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#sInfo{
+		height: 186px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#xInfo{
+		height: 186px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#pSInfo{
+		height: 272px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#pXInfo{
+		height: 272px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+
+	#wInfo{
+		height: 284px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 100px; right: 0;
+	}
+}

@@ -94,8 +94,25 @@ $.ajax({
         if(results.result.workers === undefined)
         {
             $('#sHash').html('No data');
-            for(var i = 0; i < 6; i++){
-                $('#sPay' + i).html("<div>No data</div>");
+
+            if(results.result.history == undefined){
+                for(var i = 0; i < 6; i++){
+                    $('#sPay' + i).html("No data");
+                }
+            }
+
+            else if (results.result.history.length > 5){
+                if(pandaAddress.charAt(0) == "P"){
+                    for(var i = 0; i < 6; i++){
+                        $('#sPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>");
+                    }
+                }
+
+                else{
+                    for(var i = 0; i < 6; i++){
+                        $('#sPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>");
+                    }
+                }
             }
         }
 
@@ -143,8 +160,25 @@ $.ajax({
         if(results.result.workers === undefined)
         {
             $('#xHash').html('No data');
-            for(var i = 0; i < 6; i++){
-                $('#xPay' + i).html("<div>No data</div>");
+            
+            if(results.result.history == undefined){
+                for(var i = 0; i < 6; i++){
+                    $('#xPay' + i).html("No data");
+                }
+            }
+
+            else if (results.result.history.length > 5) {
+                if(pandaAddress.charAt(0) == "P"){
+                    for(var i = 0; i < 6; i++){
+                        $('#xPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>");
+                    }
+                }
+
+                else{
+                    for(var i = 0; i < 6; i++){
+                        $('#xPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>");
+                    }
+                }
             }
         }
 
