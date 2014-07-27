@@ -93,7 +93,7 @@ $.ajax({
 
         if(results.result.workers === undefined)
         {
-            $('#sHash').html('No data(0KH/s)');
+            $('#sHash').html('No data');
             for(var i = 0; i < 6; i++){
                 $('#sPay' + i).html("<div>No data</div>");
             }
@@ -142,7 +142,7 @@ $.ajax({
 
         if(results.result.workers === undefined)
         {
-            $('#xHash').html('No data(0KH/s)');
+            $('#xHash').html('No data');
             for(var i = 0; i < 6; i++){
                 $('#xPay' + i).html("<div>No data</div>");
             }
