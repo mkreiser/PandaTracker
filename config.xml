@@ -26,7 +26,8 @@
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion"        value="9" />
+    <preference name="android-targetSdkVersion"     value="14" />    
     <preference name="android-installLocation" value="auto" />
     <!-- Target Platformss -->
     <gap:platform name="android" />
