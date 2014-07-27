@@ -15,7 +15,7 @@ $('#pSInfo').hide();
 $('#pXInfo').hide();
 $('#wInfo').hide();
 
-$('#sButton').on('click',function(){
+$('#sButton').on('touchend',function(){
     $('#sInfo').show();
     $('#xInfo').hide();
     $('#pSInfo').hide();
@@ -23,7 +23,7 @@ $('#sButton').on('click',function(){
     $('#wInfo').hide();
 });
 
-$('#xButton').on('click',function(){
+$('#xButton').on('touchend',function(){
     $('#sInfo').hide();
     $('#xInfo').show();
     $('#pSInfo').hide();
@@ -31,7 +31,7 @@ $('#xButton').on('click',function(){
     $('#wInfo').hide();
 });
 
-$('#pButton').on('click',function(){
+$('#pButton').on('touchend',function(){
     $('#sInfo').hide();
     $('#xInfo').hide();
     $('#pSInfo').show();
@@ -39,7 +39,7 @@ $('#pButton').on('click',function(){
     $('#wInfo').hide();
 });
 
-$('#wButton').on('click',function(){
+$('#wButton').on('touchend',function(){
     $('#sInfo').hide();
     $('#xInfo').hide();
     $('#pSInfo').hide();
@@ -47,7 +47,7 @@ $('#wButton').on('click',function(){
     $('#wInfo').show();
 });
 
-$('.cardHead').on('click',function(){
+$('.cardHead').on('touchend',function(){
         pandaAddress = $('#pandaForm').val();
         window.localStorage.setItem("panda", pandaAddress);
         updateScrypt();
@@ -55,12 +55,12 @@ $('.cardHead').on('click',function(){
         updateWallet();
 });
 
-$('.sPButton').on('click',function(){
+$('.sPButton').on('touchend',function(){
     $('#pSInfo').show();
     $('#pXInfo').hide();
 });
 
-$('.xPButton').on('click',function(){
+$('.xPButton').on('touchend',function(){
     $('#pSInfo').hide();
     $('#pXInfo').show();
 });
