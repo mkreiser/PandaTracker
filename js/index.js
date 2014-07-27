@@ -205,8 +205,8 @@ function updateWallet(){
                 btcUSDprice = data.btc_to_usd;
                 btcUSDprice = roundToTwo(btcUSDprice);
                 dogeThousand = dogeBTCrate * btcUSDprice;
-                $('#exchange').html('DOGE/BTC Rate: ' + Math.ceil(dogeBTCrate*100000000) + " Satoshi")
-                $('#thous').html('1000 DOGE/USD Rate: ' + "$" + roundToThree(dogeBTCrate * 1000 * btcUSDprice));
+                $('#exchange').html('DOGE/BTC: ' + Math.ceil(dogeBTCrate*100000000) + " Satoshi")
+                $('#thous').html('1000 DOGE/USD: ' + "$" + roundToThree(dogeBTCrate * 1000 * btcUSDprice));
                 getDogeAd(dogeBTCrate,btcUSDprice);
             }   
             });
@@ -221,7 +221,7 @@ function getDogeAd(dogeBTCrate,btcUSDprice){
         dataType: 'jsonp',
         success: function(results){
             addressBalance = results.data.confirmed_balance;
-            $('#amount').html("DOGE Amount: " + roundToTwo(addressBalance) + " Doge");
+            $('#amount').html("Balance: " + roundToTwo(addressBalance));
             $('#usdAm').html("$" + roundToTwo(dogeBTCrate * btcUSDprice * addressBalance));
         }
     });
@@ -237,7 +237,7 @@ function getPandaAd(){
         dataType: 'jsonp',
         success: function(results){
             $('#thous').html('Pandacoin!');
-            $('#amount').html('Panda Amount: ' + roundToTwo(results));
+            $('#amount').html('Balance: ' + roundToTwo(results));
             getPandaAm(parseInt(results));
         }
     });
