@@ -1,13 +1,23 @@
+@font-face{
+	font-family: 'Roboto-Light';
+	src:url('fonts/RobotoTTF/Roboto-Light.ttf');
+}
+
+@font-face{
+	font-family: 'Roboto-Regular';
+	src:url('fonts/RobotoTTF/Roboto-Regular.ttf');
+}
+
 * {margin: 0; padding: 0;}
 
 body { 
 	-webkit-user-select:none;
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Roboto-Light', sans-serif; 
 	font-size: 40px; 
-	background-color: #EEEEEE;	
+	background-color: #EEEEEE;
 	width: 100%; 
 	height: 100% !important;
-	color: #FFFFFF;
+	color: #000000;
 	text-shadow: 0px 1px 1px #444;
 }
 
@@ -24,193 +34,133 @@ a {
 	-webkit-user-select:none; -webkit-touch-callout:none;
 }
 
-.padBottom{
-	padding-bottom: 10px;
+.cardHead{
+	z-index: 99;
 }
 
-.room{
-	margin-top: 20px;
+.cardHead:hover{
+	cursor: pointer;	
 }
 
-.topButton{
-	background-color: #00CBFF;
-	border: 10px solid #FFFFFF;
-	padding: 20px;
-	color: #FFFFFF;
-	position: relative;
-	top: 50px;
-	display: inline-block;
-	width: 220px;
-	text-align: center;
-}
-
-#content{
-	width:840px;
+.list.card{
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	color: #000000;
-	
 }
 
-#header{
-	font-size:100px; 
-	padding-bottom:10px;
-	line-height: 150px;
-	display:inline-block;
+.item{
+	font-size: 60px;
+	height: 120px;
+	line-height: 120px;
+	padding: 0 0 0 20px;
 }
 
-#headerText{
-	font-size: 100px;
-	padding-top: 10px;
-	background-color: #00CBFF;
-	color: #EEEEEE;
-	border-bottom: 10px solid #FFFFFF;
-	width: 100%;
-	text-align: center;
+.pay{
+	font-size: 40px;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 0 0 20px;
 }
 
-#infoContent{
-	position: relative;
-	top: 100px;
+input[type="text"]{
+	font-size: 32px;
+	height: 120px;
+	line-height: 120px;
+	padding:0;
+	color: #444;
+	font-family: 'Roboto-Light';
+	text-shadow: 0px 1px 1px #444;
 }
 
-#pandaForm{
-	style="display:inline-block;
-	width: 400px; 
-	margin-top:10px; 
-	height: 30px; 
-	font-size: 25px;
+.tab-item{
+	margin: 0;
+	line-height: 100px;
+	box-sizing: content-box;
+	font-size: 40px;
+	color:#FFFFFF;
+	font-family: 'Roboto-Light';
+	opacity: 1;
+	max-width: 200px;
 }
 
-#updateButton{
+#pBU{
+	line-height: 80px;
+}
+
+#cardHead2{
+	font-size: 40px;
+	height: 100px;
+	padding: 0 0 0 20px;
+	line-height: 100px;
 	background-color: #00CBFF;
 	color: #FFFFFF;
-	padding: 25px;
-	margin-top: 50px;
-	text-align: center;
+	z-index: 99;
+}
+
+#cardHead3{
 	font-size: 40px;
-	border-width: 10px;
-	border-style: solid;
-	border-color: #FFFFFF;
+	height: 100px;
+	padding: 0 0 0 20px;
+	line-height: 100px;
+	background-color: #00CBFF;
+	color: #FFFFFF;
+	z-index: 99;
+}
+
+#cardHead4{
+	font-size: 35px;
+	height: 80px;
+	padding: 0 0 0 20px;
+	line-height: 80px;
+	background-color: #00CBFF;
+	color: #FFFFFF;
+	z-index: 99;
+}
+
+#tabs{
+	height: 100px;
+	background-color: #00CBFF;
 	position: fixed;
-	top:1050px;
-	width: 770px;
+	bottom: 0;
 }
 
-@media all and (max-width : 920px) and (min-width : 710px) {
-
-	.topButton{
-		width:170px;
-	}
-
-	#content{
-		width: 690px;
-		font-size: 28px;
-	}
-
-	#header{
-		font-size: 60px;
-		line-height: 100px;
-	}
-
-	#headerText{
-		font-size: 60px;
-		line-height: 70px;
-	}
-
-	#infoContent{
-		top:80px;
-	}
-
-	#updateButton{
-		width:620px;
-		top:760px;
-	}
-
+#tabs2{
+	height: inherit;
+	background-color: #00CBFF;
+	padding: 0;	
 }
 
-@media all and (max-width : 709px) and (min-width : 510px){
-
-	.topButton{
-		border: 5px solid #FFFFFF;
-		padding: 10px;
-		width:140px;
-		font-size: 20px;
-		top:20px;
-	}
-
-	#content{
-		width: 510px;
-		font-size: 20px;
-	}
-
-	#header{
-		font-size: 60px;
-		line-height: 100px;
-	}
-
-	#headerText{
-		font-size: 60px;
-	}
-
-	#infoContent{
-		top:40px;
-	}
-
-	#updateButton{
-		width:460px;
-		top:550px;
-		padding: 15px;
-		border: 5px solid #FFFFFF;
-		font-size: 20px;
-	}
-
-	#pandaForm{
-		height: 25px;
-		font-size: 20px;
-	}
+#sInfo{
+	height: 456px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 100px; right: 0;
 }
 
-@media all and (max-width : 509px) {
+#xInfo{
+	height: 456px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 100px; right: 0;
+}
 
-	.topButton{
-		border: 5px solid #FFFFFF;
-		padding: 10px;
-		width:90px;
-		font-size: 16px;
-		top:20px;
-	}
+#pSInfo{
+	height: 632px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 100px; right: 0;
+}
 
-	#content{
-		width: 360px;
-		font-size: 18px;
-	}
+#pXInfo{
+	height: 632px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 100px; right: 0;
+}
 
-	#header{
-		font-size: 30px;
-		line-height: 60px;
-	}
-
-	#headerText{
-		font-size: 30px;
-		line-height: 60px;
-	}
-
-	#infoContent{
-		top:40px;
-	}
-
-	#updateButton{
-		width:320px;
-		top:480px;
-		padding: 15px;
-		border: 5px solid #FFFFFF;
-		font-size: 20px;
-	}
-
-	#pandaForm{
-		width: 320px;
-		height: 25px;
-		font-size: 20px;
-	}
+#wInfo{
+	height: 694px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 100px; right: 0;
 }

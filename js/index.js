@@ -3,39 +3,68 @@
 var permanentStorage = window.localStorage;
 var pandaAddress = window.localStorage.getItem("panda");
 
-if (pandaAddress == ""){pandaAddress = "";}
+angular.module('ionicApp', ['ionic'])
+
+if (pandaAddress == ""){pandaAddress = "";$('#sHash').html('Go to Wallet');}
 
 $('#pandaForm').val(pandaAddress);
 
 $('#sInfo').show();
 $('#xInfo').hide();
+$('#pSInfo').hide();
+$('#pXInfo').hide();
 $('#wInfo').hide();
 
-$('#sButton').on('touchend',function(){
+$('#sButton').on('click',function(){
     $('#sInfo').show();
     $('#xInfo').hide();
+    $('#pSInfo').hide();
+    $('#pXInfo').hide();
     $('#wInfo').hide();
 });
 
-$('#xButton').on('touchend',function(){
+$('#xButton').on('click',function(){
     $('#sInfo').hide();
     $('#xInfo').show();
+    $('#pSInfo').hide();
+    $('#pXInfo').hide();
     $('#wInfo').hide();
 });
 
-$('#wButton').on('touchend',function(){
+$('#pButton').on('click',function(){
     $('#sInfo').hide();
     $('#xInfo').hide();
+    $('#pSInfo').show();
+    $('#pXInfo').hide();
+    $('#wInfo').hide();
+});
+
+$('#wButton').on('click',function(){
+    $('#sInfo').hide();
+    $('#xInfo').hide();
+    $('#pSInfo').hide();
+    $('#pXInfo').hide();
     $('#wInfo').show();
 });
 
-$('#updateButton').on('touchend',function(){
+$('.cardHead').on('click',function(){
         pandaAddress = $('#pandaForm').val();
         window.localStorage.setItem("panda", pandaAddress);
         updateScrypt();
         updateX11();
         updateWallet();
 });
+
+$('.sPButton').on('click',function(){
+    $('#pSInfo').show();
+    $('#pXInfo').hide();
+});
+
+$('.xPButton').on('click',function(){
+    $('#pSInfo').hide();
+    $('#pXInfo').show();
+});
+
 
 var currentRound = 0;
 var currentRound2 = 0;
@@ -65,6 +94,9 @@ $.ajax({
         if(results.result.workers === undefined)
         {
             $('#sHash').html('No data (0.00KH/s)');
+            for(var i = 0; i < 6; i++){
+                $('#sPay' + i).html("<div>No data</div>");
+            }
         }
 
         else{
@@ -78,20 +110,17 @@ $.ajax({
             currentRound = results.result.history[0].round;
             getDogePerDay(currentRound);
 
-            var payoutHTML = "";
             if(pandaAddress.charAt(0) == "P"){
                 for(var i = 0; i < 6; i++){
-                    payoutHTML += "<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>";
+                    $('#sPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>");
                 }
             }
 
             else{
                 for(var i = 0; i < 6; i++){
-                    payoutHTML += "<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>";
+                    $('#sPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>");
                 }
             }
-
-            $('#sPayouts').html(payoutHTML);
         }
     }
     });
@@ -114,6 +143,9 @@ $.ajax({
         if(results.result.workers === undefined)
         {
             $('#xHash').html('No data (0.00KH/s)');
+            for(var i = 0; i < 6; i++){
+                $('#xPay' + i).html("<div>No data</div>");
+            }
         }
 
         else{
@@ -126,21 +158,18 @@ $.ajax({
 
             currentRound2 = results.result.history[0].round;
             getDogePerDayX(currentRound2);
-            var payoutHTMLX = "";
 
             if(pandaAddress.charAt(0) == "P"){
                 for(var i = 0; i < 6; i++){
-                    payoutHTMLX += "<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>";
+                    $('#xPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Panda</div>");
                 }
             }
 
             else{
                 for(var i = 0; i < 6; i++){
-                    payoutHTMLX += "<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>";
+                    $('#xPay' + i).html("<div>Round " + results.result.history[i].round + " - " + roundToTwo(results.result.history[i].payout) + " Doge</div>");
                 }
             }
-
-            $('#xPayouts').html(payoutHTMLX);
         }
     }
     });
@@ -149,8 +178,6 @@ $.ajax({
 function updateWallet(){
     $('#exchange').html('Loading...');
     $('#usdAm').html("");
-
-    console.log(pandaAddress.charAt(0));
 
     if(pandaAddress.charAt(0) === 'P'){
         getPandaAd();
@@ -209,7 +236,7 @@ function getPandaAd(){
         url: url5,
         dataType: 'jsonp',
         success: function(results){
-            $('#thous').html('');
+            $('#thous').html('Pandacoin!');
             $('#amount').html('Panda Amount: ' + roundToTwo(results));
             getPandaAm(parseInt(results));
         }
@@ -257,8 +284,8 @@ function getDogePerDay(cRound){
         url: url2,
         dataType: 'json',
         success: function(results){
-            $('#sDPD').html(roundToTwo(results.result.doge_mhs_day) + " Doge");
-            $('#sPPD').html(roundToTwo(results.result.pnd_mhs_day) + " Panda");
+            $('#sDPD').html(roundToTwo(results.result.doge_mhs_day));
+            $('#sPPD').html(roundToTwo(results.result.pnd_mhs_day));
         }
     });
 }
@@ -270,8 +297,8 @@ function getDogePerDayX(cRound){
         url: url2,
         dataType: 'json',
         success: function(results){
-            $('#xDPD').html(roundToTwo(results.result.doge_mhs_day) + " Doge");
-            $('#xPPD').html(roundToTwo(results.result.pnd_mhs_day) + " Panda");
+            $('#xDPD').html(roundToTwo(results.result.doge_mhs_day));
+            $('#xPPD').html(roundToTwo(results.result.pnd_mhs_day));
         }
     });
 }
