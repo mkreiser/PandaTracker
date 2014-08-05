@@ -5,7 +5,7 @@ var pandaAddress = window.localStorage.getItem("panda");
 
 angular.module('ionicApp', ['ionic'])
 
-if (pandaAddress == ""){pandaAddress = "";$('#sHash').html('Go to Wallet');}
+if (pandaAddress == null){pandaAddress = "";$('#sHash').html('Go to Wallet');}
 
 $('#pandaForm').val(pandaAddress);
 
