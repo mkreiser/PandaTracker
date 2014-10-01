@@ -1,0 +1,1136 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"not",
+				"notification"
+			],
+			[
+				"loc",
+				"locCount"
+			],
+			[
+				"subl",
+				"sublabelShow"
+			],
+			[
+				"show",
+				"sublabelShow"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"End",
+				"End"
+			],
+			[
+				"sub",
+				"sublabelShow"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"pd",
+				"padding"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"la",
+				"Lato"
+			],
+			[
+				"Robot",
+				"Roboto-Regular"
+			],
+			[
+				"Robo",
+				"Roboto-Regular"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"inln",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sea",
+				"searchArray"
+			],
+			[
+				"sear",
+				"searchHTML"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"waffle",
+				"waffleAddress"
+			],
+			[
+				"sc",
+				"scrypt"
+			],
+			[
+				"par",
+				"parse"
+			],
+			[
+				"alert",
+				"alertCount"
+			],
+			[
+				"parse",
+				"parseFloat"
+			],
+			[
+				"path",
+				"pathCrumb"
+			],
+			[
+				"State",
+				"StateMM"
+			],
+			[
+				"track",
+				"trackMarker"
+			],
+			[
+				"cru",
+				"crumbCount"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"Roboto",
+				"Roboto-Light"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"setting",
+				"settingsContent"
+			],
+			[
+				"main",
+				"mainContent"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"intro",
+				"introText3"
+			],
+			[
+				"chec",
+				"checkText3"
+			],
+			[
+				"ta",
+				"taInfo"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"other",
+				"otherRateVar"
+			],
+			[
+				"oth",
+				"otherAm"
+			],
+			[
+				"o",
+				"otherAm"
+			],
+			[
+				"medT",
+				"medTax"
+			],
+			[
+				"med",
+				"medTax"
+			],
+			[
+				"ss",
+				"ssTaxVar"
+			],
+			[
+				"loca",
+				"localTax"
+			],
+			[
+				"retire",
+				"retireDec"
+			],
+			[
+				"fed",
+				"fedTaxRate"
+			],
+			[
+				"setti",
+				"settingsButton"
+			],
+			[
+				"last",
+				"last_price"
+			],
+			[
+				"desc",
+				"descForm"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"acc",
+				"accuracy"
+			],
+			[
+				"cou",
+				"countyMMForm"
+			],
+			[
+				"urge",
+				"urgency"
+			],
+			[
+				"offset",
+				"offsetForm"
+			],
+			[
+				"stateMM",
+				"stateMMForm"
+			],
+			[
+				"countyMM",
+				"countyMMForm"
+			],
+			[
+				"County",
+				"County"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"urg",
+				"urgencySelect"
+			],
+			[
+				"mi",
+				"minutes"
+			],
+			[
+				"butto",
+				"buttonIndex"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"recor",
+				"recordHTML"
+			],
+			[
+				"remove",
+				"removeItem"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"camera",
+				"cameraOptions"
+			],
+			[
+				"photo",
+				"photosOn"
+			],
+			[
+				"delet",
+				"deleteOff"
+			],
+			[
+				"delteon",
+				"deleteOnExport"
+			],
+			[
+				"del",
+				"deleteOnExport"
+			],
+			[
+				"delete",
+				"deleteOnExport"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"trash",
+				"trashIcon"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"star",
+				"startNumber"
+			],
+			[
+				"save",
+				"saveNumber"
+			],
+			[
+				"startN",
+				"onStartTracking"
+			],
+			[
+				"locat",
+				"localStorage"
+			],
+			[
+				"export",
+				"exportArray"
+			],
+			[
+				"CAm",
+				"CameraLauncher"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"upda",
+				"updateWallet"
+			],
+			[
+				"payout",
+				"payoutHTMLX"
+			],
+			[
+				"addr",
+				"addressBalance"
+			],
+			[
+				"round",
+				"roundToTwo"
+			],
+			[
+				"pay",
+				"payoutHTML"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"c",
+				"currentRound"
+			],
+			[
+				"panda",
+				"pandaAddress"
+			],
+			[
+				"mk",
+				"mkreise2"
+			],
+			[
+				"De",
+				"Deleted"
+			],
+			[
+				"add",
+				"addHeader"
+			],
+			[
+				"Desc",
+				"Description"
+			],
+			[
+				"elem",
+				"elementD"
+			],
+			[
+				"Des",
+				"Description"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "AndroidManifest.xml",
+			"settings":
+			{
+				"buffer_size": 1482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 4467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6610,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/index.js",
+			"settings":
+			{
+				"buffer_size": 10250,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 6083,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/js/index.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/ODOT BWT.sublime-project",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-12/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/js/index.js",
+		"/C/Users/test/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/test/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/MAR 2014/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/main.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/index.html",
+		"/C/Users/test/Documents/GitHub/PandaTracker/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/config.xml",
+		"/C/Users/test/Documents/GitHub/PandaTracker/analytics.js",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/js/index.js",
+		"/C/Users/test/Documents/GitHub/PandaTracker/config.xml",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/AndroidManifest.xml",
+		"/C/Users/test/Documents/GitHub/PandaTracker/AndroidManifest.xml",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/js/GALocalStorage.js",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/ga.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D12/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D11/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D10/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D9/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D8/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D7/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D5/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D4/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/D2/MAR 2014/3-12/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/sliders.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/D4/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/2014-2015 Redesign.txt",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D4/MAR 2014/3-8/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D4/styles.css",
+		"/C/Users/test/Documents/GitHub/PandaTracker/js/index.js",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/index.html",
+		"/C/Users/test/Documents/GitHub/PandaTrackerWebsite/index.html",
+		"/C/Users/test/Documents/GitHub/PandaTrackerWebsite/styles.css",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/styles.css",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/css/ionic.css",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/index.js",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/styles.css",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/css/ionicfonts.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-12/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-21/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D12/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D11/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D10/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D9/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D8/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D7/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D5/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-12/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/MAR 2014/D6.pdf",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-13/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/styles.css",
+		"/C/Users/test/Documents/GitHub/PandaTracker/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/css/ionic.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/JAN 2014/1-5/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-12/jquery.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Location Finder App/1.4 Dev (Active)/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Location Finder App/1.4 Dev (Active)/config.xml",
+		"/C/Users/test/Documents/GitHub/PandaTrackerWebsite/js/index.js",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/js/index.js",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/styles.css",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/js/index.js",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/index.html",
+		"/C/Users/test/Desktop/CalcPaycheck/background.js",
+		"/C/Users/test/Desktop/CalcPaycheck/manifest.json",
+		"/C/Users/test/Desktop/CalcPaycheck/main.html",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/config.xml",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/AndroidManifest.xml",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/css/ionic.css",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerChromeApp/manifest.json",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerChromeApp/background.js",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerChromeApp/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerChromeApp/js/index.js",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/cordova_plugins.js",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/main.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/cordova.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/FEB 2014/2-17/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/D1/JAN 2014/1-5/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/D1/JAN 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT BWT App/Dev/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT BWT App/Dev/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT BWT App/Dev/js/index.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/js/index.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Location Finder App/1.4 Dev (Active)/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Location Finder App/1.4 Dev (Active)/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT BWT App/Dev/config.xml",
+		"/C/Users/test/Desktop/CalcPaycheck/js/index.js",
+		"/C/Users/test/Desktop/CalcPaycheck/AndroidManifest.xml",
+		"/C/Users/test/Desktop/CalcPaycheck/styles.css",
+		"/C/Users/test/Desktop/CalcPaycheck/index.html",
+		"/C/Users/test/Desktop/CalcPaycheck/config.xml",
+		"/C/Users/test/Desktop/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/ODOT Flipbook App/Dev/css/ionicons.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"12",
+			"\n            ",
+			"header",
+			"page",
+			"that",
+			"YOUR_ID_HERE",
+			"_HERE']);\n	    _gaq.push(['_setDomainName', 'none'])",
+			"errorHandler",
+			"nativePluginErrorHandler",
+			"successHandler",
+			"CUY",
+			"<!--DISTRICT-->",
+			"BEL",
+			"<!--DISTRICT-->",
+			"ATH",
+			"<!--DISTRICT-->",
+			"ROS",
+			"ADA",
+			"ADHIGA",
+			"ADA",
+			"<!--DISTRICT-->",
+			"BUT",
+			"<!--DISTRICT-->",
+			"AUG",
+			"<!--DISTRICT-->",
+			"DEL",
+			"<!--DISTRICT-->",
+			"COS",
+			"<!--DISTRICT-->",
+			"DISTRICT",
+			"ATB",
+			"<!--DISTRICT-->",
+			"WAY",
+			"ASD",
+			"<!--ASD-->",
+			"<!--DISTRICT-->",
+			"<!--WOO-->",
+			"WOO",
+			"<!--WIL-->",
+			"WIL",
+			"<!--SEN-->",
+			"<!--SAN-->",
+			"SAN",
+			"<!--OTT-->",
+			"<!--LUC-->",
+			"HEN",
+			"<!--FUL-->",
+			"<!--DISTRICT-->",
+			"<!--VAN-->",
+			"<!--ALL-->",
+			"<!--FUL-->",
+			"Continue",
+			"alert",
+			"expData",
+			"alert",
+			"locCount",
+			"crumbCount",
+			"n/a",
+			"a",
+			"none",
+			"span",
+			"a",
+			"span",
+			"failed",
+			"\"\"",
+			"header",
+			"county-wrap",
+			"Henry",
+			"Fulton",
+			"159B6A",
+			"FFFFFF",
+			"photos",
+			"Photos",
+			"photos",
+			"photosOn",
+			"BF0000",
+			"159B6A",
+			"9",
+			"BF0000",
+			"FFFFFF",
+			"BF0000",
+			"159B6A",
+			"delete",
+			"0",
+			"'",
+			"savePhotosToDevice",
+			"style=\"font-size:160px;color:#FFF\"",
+			"200",
+			"250px",
+			"\n	line-height: 300px;",
+			"unvisited",
+			"24px",
+			"ion-android-playstore",
+			"fixed",
+			"relative",
+			"icons",
+			"light",
+			"arial",
+			"PandaTracker",
+			"bold",
+			"span",
+			"/*!",
+			"failed",
+			"Huron",
+			"Erie",
+			"Crawford",
+			"span",
+			"header",
+			"county-wrap",
+			"wrap",
+			"\"starttime",
+			"header",
+			"county-wrap",
+			"wrap",
+			"span",
+			"Wood",
+			"Williams",
+			"Seneca",
+			"Sandusky",
+			"Ottawa",
+			"Lucas",
+			"Henry",
+			"Fulton",
+			"Lucas",
+			"Henry",
+			"Fulton",
+			"WOO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "AndroidManifest.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.7453125,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "PandaTracker.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"12",
+				"C:\\Users\\test\\Dropbox (Traffic)\\Traffic\\snow&ice\\routes\\Dev\\odot-test\\D2\\MAR 2014\\3-12\\index.html"
+			],
+			[
+				"",
+				"C:\\Users\\test\\Dropbox (Traffic)\\Traffic\\snow&ice\\routes\\Dev\\odot-test\\D2\\MAR 2014\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\test\\Dropbox (Traffic)\\Traffic\\Mobile Apps\\ODOT BWT App\\ODOT BWT.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
